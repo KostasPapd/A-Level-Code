@@ -11,7 +11,7 @@ def hexa(num, length=2):
 
 
 plaintext = input("Enter a message to encrypt:\n")
-key = "101ComputingKey"
+key = "KonstantinosPapadopoulos"
 keyLength = len(key)
 cipherAscii = ""
 cipherDen = ""
