@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Menu</title>
+    <link href="external_css.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body class="background">
+
+    <div class="body" id="register" style="visibility: visible;">
+            <h3>Register</h3>
+            <p>
+                <label for="regname">Username:</label>
+                <input type="text" id="regname" name="fname">
+            </p>     
+            <p>
+                <label for="regpass">Password:</label>
+                <input type="text" id="regpass" name="pass">
+            </p>
+            <p>
+                <label for="regpass1">Re-Type Password:</label>
+                <input type="text" id="regpass1" name="pass1">
+            </p>
+            <button type="button" onclick="hideReg()" class="button">Login Instead</button>
+            <button type="button" class="button">Create Account</button>
+    </div>
+
+    <div class="body" id="login" style="visibility: hidden;">
+        <h3>Login</h3>
+        <p>
+            <label for="logname">Username:</label>
+            <input type="text" id="logname" name="fname">
+        </p>
+        <p>
+            <label for="logpass">Password:</label>
+            <input type="text" id="logpass" name="pass">
+        </p>
+        <button type="button" onclick="hideLog()" class="button">Register Instead</button>
+        <button type="button" class="button" onclick="LogIn()">Login</button>
+    </div>
+</body>
+
+
+<script src="index.js"></script>
+
+</html>

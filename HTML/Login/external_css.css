@@ -1,0 +1,44 @@
+.header
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0%;
+    transform: translate(-50%, 0%);
+    left: 50%;
+}
+
+.body
+{   
+    background-color: gray;
+    border-radius: 20px;
+    opacity: 90%;
+    height: 200px;
+    width: 500px;
+    padding: 0px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+
+.background
+{
+    background-image: url('back.png'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+.button
+{
+    background-color: rgb(139, 139, 139);
+    border-radius: 20px;
+}
